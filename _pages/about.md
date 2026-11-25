@@ -118,10 +118,10 @@ redirect_from:
 
 <h3>Scholarships &amp; Academic Honors</h3>
 <ul class="cv-awards">
-<li>National Scholarship, China</li>
-<li>Outstanding Graduate of Sichuan Province</li>
-<li>Outstanding Graduate, Sichuan Agricultural University</li>
-<li>First-Class Academic Scholarship</li>
+<li><div class="cv-heading"><span>National Scholarship, China</span><span class="cv-date">2023</span></div></li>
+<li><div class="cv-heading"><span>Outstanding Graduate of Sichuan Province</span><span class="cv-date">2024</span></div></li>
+<li><div class="cv-heading"><span>Outstanding Graduate, Sichuan Agricultural University</span><span class="cv-date">2024</span></div></li>
+<li><div class="cv-heading"><span>First-Class Academic Scholarship</span><span class="cv-date">2023, 2024</span></div></li>
 </ul>
 
 <h3>Urban Planning &amp; Landscape Awards</h3>
