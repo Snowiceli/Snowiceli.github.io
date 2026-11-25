@@ -67,6 +67,8 @@ redirect_from:
 <h2 id="service-heading">Service &amp; Membership</h2>
 <ul class="cv-awards">
 <li><div class="cv-heading"><span>Biology Colloquium Committee</span><span class="cv-date">2026</span></div></li>
+<li><div class="cv-heading"><span>Graduate Student Academic Affairs and Rights Department</span><span class="cv-date">2022</span></div></li>
+<li><div class="cv-heading"><span>Undergraduate Student Volunteer Services Department</span><span class="cv-date">2018</span></div></li>
 </ul>
 </section>
 </div>
