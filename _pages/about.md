@@ -46,12 +46,12 @@ redirect_from:
 </li>
 <li>
 <strong class="cv-award-level">Silver Award</strong>
-<span class="cv-award-name">Chengdu “Park City Gathering” Landscape Design Competition — <em>Jinjiao Yinbian</em> urban space design call<br><span class="cv-award-amount">approx. RMB 3,000</span></span>
+<span class="cv-award-name">Chengdu “Park City Gathering” Landscape Design Competition — <em>Jinjiao Yinbian</em> urban space design call <span class="cv-award-amount">(approx. RMB 3,000)</span></span>
 <span class="cv-award-date">2020</span>
 </li>
 <li>
 <strong class="cv-award-level">Third Prize</strong>
-<span class="cv-award-name">Xiong’an Urban Furniture Design Competition<br><span class="cv-award-amount">RMB 20,000</span></span>
+<span class="cv-award-name">Xiong’an Urban Furniture Design Competition <span class="cv-award-amount">(RMB 20,000)</span></span>
 <span class="cv-award-date">2019</span>
 </li>
 </ul>
