@@ -12,7 +12,7 @@ redirect_from:
 <div class="about-cv">
 <p>I am a PhD student at the University of Wisconsin–Madison, advised by Prof. Daijiang Li. My research examines how urbanization and environmental change shape plant communities and species interactions. My background spans environmental design, plant physiology, and ecology, and I am interested in connecting plant responses to environmental stress with broader patterns of biodiversity. I obtained my bachelor’s and master’s degrees at Sichuan Agricultural University.</p>
 
-{% include research-content.html %}
+
 
 
 
