@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Research"
+title: "About Me"
 permalink: /research/
-author_profile: true
+redirect_to: /
+sitemap: false
 ---
