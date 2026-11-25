@@ -1,18 +1,18 @@
 ---
 layout: single
-permalink: /
+permalink: /about/
 title: "About Me"
 author_profile: true
 redirect_from:
-  - /about/
   - /about.html
 ---
 
 <style>
-.about-cv { font-size: max(16px, .8rem); line-height: 1.6; }
+.page__title { font-size: 1.45rem; }
+.about-cv { font-size: max(16px, .72rem); line-height: 1.6; }
 .about-cv p, .about-cv ul, .about-cv li { font-size: inherit; }
-.about-cv h2 { font-size: 1.4em; margin: 2rem 0 1.1rem; padding-bottom: .4rem; border-bottom: 1px solid currentColor; }
-.about-cv h3 { margin: 0; font-size: 1.15em; line-height: 1.4; }
+.about-cv h2 { font-size: 1.3em; margin: 2rem 0 1.1rem; padding-bottom: .4rem; border-bottom: 1px solid currentColor; }
+.about-cv h3 { margin: 0; font-size: 1.08em; line-height: 1.4; }
 .about-cv h4 { margin: 1rem 0 .35rem; font-size: 1em; }
 .about-cv .cv-entry { margin: 0 0 1.7rem; }
 .about-cv .cv-heading { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem 1.5rem; }
@@ -155,7 +155,7 @@ redirect_from:
 
 <h3>Travel Funding</h3>
 <ul class="cv-awards">
-<li>John Jefferson Davis (JJD) Funding for Student Travel<br>
+<li><div class="cv-heading"><span>John Jefferson Davis (JJD) Funding for Student Travel</span><span class="cv-date">2026</span></div>
 <span class="cv-affiliation">Department of Biology, University of Wisconsin–Madison</span></li>
 </ul>
 </section>
