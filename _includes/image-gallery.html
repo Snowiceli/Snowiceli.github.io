@@ -1,0 +1,8 @@
+<div class="image-gallery" role="region" aria-label="Event photo gallery" tabindex="0">
+{% for photo in include.images %}
+<figure>
+<a href="{{ photo.path | relative_url }}" target="_blank" rel="noopener"><img src="{{ photo.path | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async"></a>
+<figcaption>{{ photo.caption }}</figcaption>
+</figure>
+{% endfor %}
+</div>

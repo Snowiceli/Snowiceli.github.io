@@ -1,7 +1,12 @@
 ---
 layout: single
-title: "About Me"
+title: "Research"
 permalink: /research/
-redirect_to: /
-sitemap: false
+author_profile: true
 ---
+
+{% include about-style.html %}
+
+<div class="about-cv">
+{% include research-content.html %}
+</div>
