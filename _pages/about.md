@@ -3,6 +3,7 @@ layout: single
 permalink: /about/
 title: "About Me"
 author_profile: true
+show_honors: false
 redirect_from:
   - /about.html
 ---
@@ -16,6 +17,7 @@ redirect_from:
 
 
 
+{% if page.show_honors %}
 <section aria-labelledby="awards-heading">
 <h2 id="awards-heading">Honors &amp; Awards</h2>
 
@@ -62,6 +64,7 @@ redirect_from:
 <span class="cv-affiliation">Department of Biology, University of Wisconsin–Madison</span></li>
 </ul>
 </section>
+{% endif %}
 
 <section aria-labelledby="service-heading">
 <h2 id="service-heading">Service &amp; Membership</h2>
