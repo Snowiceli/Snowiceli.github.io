@@ -9,24 +9,25 @@ redirect_from:
 ---
 
 <style>
-.about-cv { font-size: 1rem; line-height: 1.65; }
-.about-cv h2 { margin: 2rem 0 1.1rem; padding-bottom: .4rem; border-bottom: 1px solid currentColor; }
-.about-cv h3 { margin: 0; font-size: 1.15rem; line-height: 1.4; }
-.about-cv h4 { margin: 1rem 0 .35rem; font-size: 1rem; }
+.about-cv { font-size: max(16px, .8rem); line-height: 1.6; }
+.about-cv p, .about-cv ul, .about-cv li { font-size: inherit; }
+.about-cv h2 { font-size: 1.4em; margin: 2rem 0 1.1rem; padding-bottom: .4rem; border-bottom: 1px solid currentColor; }
+.about-cv h3 { margin: 0; font-size: 1.15em; line-height: 1.4; }
+.about-cv h4 { margin: 1rem 0 .35rem; font-size: 1em; }
 .about-cv .cv-entry { margin: 0 0 1.7rem; }
 .about-cv .cv-heading { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem 1.5rem; }
-.about-cv .cv-date { flex-shrink: 0; font-style: italic; font-size: .9rem; }
+.about-cv .cv-date { flex-shrink: 0; font-style: italic; font-size: inherit; }
 .about-cv .cv-role { margin: .2rem 0; font-weight: 600; }
-.about-cv .cv-location, .about-cv .cv-affiliation { margin: .15rem 0; font-size: .9rem; }
+.about-cv .cv-location, .about-cv .cv-affiliation { margin: .15rem 0; font-size: inherit; }
 .about-cv .cv-description { margin: .65rem 0 0; }
 .about-cv .cv-awards { padding-left: 1.25rem; margin: .5rem 0 1.25rem; }
 .about-cv .cv-awards li { margin-bottom: .5rem; }
-.about-cv .cv-education .cv-description, .about-cv .cv-research .cv-description { font-size: max(16px, .88rem); line-height: 1.6; }
+.about-cv .cv-education .cv-description, .about-cv .cv-research .cv-description { font-size: inherit; line-height: inherit; }
 .about-cv .cv-planning-awards { list-style: none; padding: 0; margin: .75rem 0 1.25rem; }
 .about-cv .cv-planning-awards li { display: grid; grid-template-columns: minmax(7rem, 1fr) minmax(0, 3fr) 4rem; align-items: baseline; column-gap: 1rem; margin-bottom: .85rem; }
 .about-cv .cv-award-level { font-weight: 600; }
 .about-cv .cv-award-name { min-width: 0; overflow-wrap: anywhere; }
-.about-cv .cv-award-amount { font-size: max(16px, .85rem); }
+.about-cv .cv-award-amount { font-size: inherit; }
 .about-cv .cv-award-date { text-align: right; font-style: italic; font-variant-numeric: tabular-nums; }
 @media (max-width: 600px) {
   .about-cv .cv-planning-awards li { grid-template-columns: minmax(0, 1fr) auto; gap: .2rem .75rem; margin-bottom: 1.1rem; }
