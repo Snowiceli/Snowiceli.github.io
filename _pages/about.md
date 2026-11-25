@@ -21,7 +21,17 @@ redirect_from:
 .about-cv .cv-description { margin: .65rem 0 0; }
 .about-cv .cv-awards { padding-left: 1.25rem; margin: .5rem 0 1.25rem; }
 .about-cv .cv-awards li { margin-bottom: .5rem; }
+.about-cv .cv-education .cv-description { font-size: max(16px, .88rem); line-height: 1.6; }
+.about-cv .cv-planning-awards { list-style: none; padding: 0; margin: .75rem 0 1.25rem; }
+.about-cv .cv-planning-awards li { display: grid; grid-template-columns: minmax(7rem, 1fr) minmax(0, 3fr) 4rem; align-items: baseline; column-gap: 1rem; margin-bottom: .85rem; }
+.about-cv .cv-award-level { font-weight: 600; }
+.about-cv .cv-award-name { min-width: 0; overflow-wrap: anywhere; }
+.about-cv .cv-award-date { text-align: right; font-style: italic; font-variant-numeric: tabular-nums; }
 @media (max-width: 600px) {
+  .about-cv .cv-planning-awards li { grid-template-columns: minmax(0, 1fr) auto; gap: .2rem .75rem; margin-bottom: 1.1rem; }
+  .about-cv .cv-award-level { grid-column: 1; grid-row: 1; }
+  .about-cv .cv-award-date { grid-column: 2; grid-row: 1; }
+  .about-cv .cv-award-name { grid-column: 1 / -1; grid-row: 2; }
   .about-cv .cv-heading { flex-direction: column; gap: .2rem; }
   .about-cv .cv-date { white-space: normal; }
 }
@@ -30,7 +40,27 @@ redirect_from:
 <div class="about-cv">
 <p>I am a PhD student at the University of Wisconsin–Madison, advised by Prof. Daijiang Li. My research examines how urbanization and environmental change shape plant communities and species interactions. My background spans environmental design, plant physiology, and ecology, and I am interested in connecting plant responses to environmental stress with broader patterns of biodiversity.</p>
 
-<section aria-labelledby="education-heading">
+<section aria-labelledby="current-research-heading">
+<h2 id="current-research-heading">Current Research</h2>
+
+<div class="cv-entry">
+<div class="cv-heading">
+<h3>University of Wisconsin–Madison</h3>
+<span class="cv-date">2026–present</span>
+</div>
+<p class="cv-role">Graduate Research Assistant</p>
+<p class="cv-location">Madison, Wisconsin, United States</p>
+<p class="cv-affiliation">Prof. Daijiang Li’s group</p>
+
+<h4>Urbanization and global patterns of plant diversity</h4>
+<p class="cv-description">I investigate how urbanization reshapes plant community composition and biotic homogenization across cities worldwide. My work examines the contributions of native and non-native plants, variation across latitudes, and differences between urban cores and surrounding landscapes. I am particularly interested in how species turnover and nestedness contribute to these patterns, and how the choice of comparison baseline changes our understanding of urban homogenization.</p>
+
+<h4>Climate change, urban plants, and species interactions</h4>
+<p class="cv-description">I am developing a research focus on how climate change and extreme weather affect urban plant communities and their interactions with other species, particularly pollinators. I am interested in how urban microclimates influence plant responses to heat and drought, flowering phenology, and the timing of plant–pollinator interactions. This work aims to connect changes in plant communities with the organization and resilience of ecological interactions.</p>
+</div>
+</section>
+
+<section class="cv-education" aria-labelledby="education-heading">
 <h2 id="education-heading">Education</h2>
 
 <div class="cv-entry">
@@ -67,22 +97,6 @@ redirect_from:
 
 <section aria-labelledby="research-heading">
 <h2 id="research-heading">Research Experience</h2>
-
-<div class="cv-entry">
-<div class="cv-heading">
-<h3>University of Wisconsin–Madison</h3>
-<span class="cv-date">2026–present</span>
-</div>
-<p class="cv-role">Graduate Research Assistant</p>
-<p class="cv-location">Madison, Wisconsin, United States</p>
-<p class="cv-affiliation">Prof. Daijiang Li’s group</p>
-
-<h4>Urbanization and global patterns of plant diversity</h4>
-<p class="cv-description">I investigate how urbanization reshapes plant community composition and biotic homogenization across cities worldwide. My work examines the contributions of native and non-native plants, variation across latitudes, and differences between urban cores and surrounding landscapes. I am particularly interested in how species turnover and nestedness contribute to these patterns, and how the choice of comparison baseline changes our understanding of urban homogenization.</p>
-
-<h4>Climate change, urban plants, and species interactions</h4>
-<p class="cv-description">I am developing a research focus on how climate change and extreme weather affect urban plant communities and their interactions with other species, particularly pollinators. I am interested in how urban microclimates influence plant responses to heat and drought, flowering phenology, and the timing of plant–pollinator interactions. This work aims to connect changes in plant communities with the organization and resilience of ecological interactions.</p>
-</div>
 
 <div class="cv-entry">
 <div class="cv-heading">
@@ -132,13 +146,33 @@ redirect_from:
 <li>First-Class Academic Scholarship</li>
 </ul>
 
-<h3>Selected Design Awards</h3>
-<ul class="cv-awards">
-<li><strong>First Prize</strong> — <a href="https://www.yuanyebei.com/">13th Yuan Ye Cup International Competition for University Students</a>, 2022</li>
-<li><strong>Third Prize</strong> — <a href="https://fjylxy.henau.edu.cn/info/1011/1592.htm">Student Design Competition, Chinese Landscape Architecture Education Conference</a></li>
-<li><strong>Third Prize, Open Category</strong> — <a href="https://xauf.cafa.edu.cn/2019xauf/">2019 Xiong’an Urban Furniture Design Competition</a></li>
-<li><strong>Silver Award</strong> — Chengdu “Park City Gathering” Landscape Design Competition, <em>Jinjiao Yinbian</em> urban space design call</li>
-<li><strong>Honorable Mention</strong> — <a href="http://expo.landscape.cn/">LA Pioneer Award, National Exhibition of University Landscape Architecture Graduation Projects</a></li>
+<h3>Urban Planning &amp; Landscape Awards</h3>
+<ul class="cv-planning-awards">
+<li>
+<strong class="cv-award-level">First Prize</strong>
+<span class="cv-award-name">13th Yuan Ye Cup International Competition for University Students</span>
+<span class="cv-award-date">2022</span>
+</li>
+<li>
+<strong class="cv-award-level">Third Prize</strong>
+<span class="cv-award-name">Student Design Competition, Chinese Landscape Architecture Education Conference</span>
+<span class="cv-award-date">2023</span>
+</li>
+<li>
+<strong class="cv-award-level">Third Prize</strong>
+<span class="cv-award-name">2019 Xiong’an Urban Furniture Design Competition — Open Category</span>
+<span class="cv-award-date"></span>
+</li>
+<li>
+<strong class="cv-award-level">Silver Award</strong>
+<span class="cv-award-name">Chengdu “Park City Gathering” Landscape Design Competition — <em>Jinjiao Yinbian</em> urban space design call</span>
+<span class="cv-award-date"></span>
+</li>
+<li>
+<strong class="cv-award-level">Honorable Mention</strong>
+<span class="cv-award-name">LA Pioneer Award, National Exhibition of University Landscape Architecture Graduation Projects</span>
+<span class="cv-award-date"></span>
+</li>
 </ul>
 </section>
 </div>
