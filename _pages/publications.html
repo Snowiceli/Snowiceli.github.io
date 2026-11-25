@@ -6,31 +6,39 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<p>You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 {% endif %}
 
-{% include base_path %}
+<h2>Preprints</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<article class="publication-entry">
+  <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=Q6D_kycAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Q6D_kycAAAAJ:WF5omc3nYNoC">Non-native plants homogenize global urban flora</a></h3>
+  <p>M Ni, M Aronson, B Baiser, MW Cadotte, M Carboni, E Carlen, …<br>
+  <em>EcoEvoRxiv</em> (preprint).</p>
+</article>
 
+<h2>Journal Articles</h2>
 
+<article class="publication-entry">
+  <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=Q6D_kycAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Q6D_kycAAAAJ:W7OEmFMy1HYC">Transcriptome analysis reveals the role of polysaccharide biosynthesis in the detoxification of <em>Dendrobium nobile</em> under zinc stress</a></h3>
+  <p>Y Fan, <strong>X Li</strong>, G Wang, J Ma, Y Liu, E Xu, A Luo<br>
+  <em>International Journal of Biological Macromolecules</em> 252, 126406.</p>
+</article>
 
+<article class="publication-entry">
+  <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=Q6D_kycAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Q6D_kycAAAAJ:u-x6o8ySG0sC">Heat Stress Alleviation by Exogenous Calcium in the Orchid <em>Dendrobium nobile</em> Lindl: A Biochemical and Transcriptomic Analysis</a></h3>
+  <p>Y Fan, J Ma, Y Liu, X Tan, <strong>X Li</strong>, E Xu, L Xu, A Luo<br>
+  <em>International Journal of Molecular Sciences</em> 24 (19), 14692.</p>
+</article>
+
+<article class="publication-entry">
+  <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=Q6D_kycAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Q6D_kycAAAAJ:UeHWp8X0CEIC">Cerium improves the physiology and medicinal components of <em>Dendrobium nobile</em> Lindl. under copper stress</a></h3>
+  <p><strong>X Li</strong>, Y Fan, J Ma, X Gao, G Wang, S Wu, Y Liu, K Yang, E Xu, S Pu, A Luo<br>
+  <em>Journal of Plant Physiology</em> 280, 153896.</p>
+</article>
+
+<article class="publication-entry">
+  <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=Q6D_kycAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Q6D_kycAAAAJ:u5HHmVD_uO8C">Transcriptomics combined with physiological analysis provided new insights into the enhancing <em>Dendrobium nobile</em> resilience to Cu stress through Ce modulation</a></h3>
+  <p><strong>X Li</strong>, J Ma, Y Fan, L Xu, J Wu, H Liu, T Li, S He, H Wang, L Zhu, L Zeng, …<br>
+  <em>Industrial Crops and Products</em> 222, 119821.</p>
+</article>
