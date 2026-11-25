@@ -105,3 +105,14 @@
   background: transparent;
   border: 0;
 }
+
+/* Display the full portrait at its original aspect ratio. */
+.sidebar .author__avatar img {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
