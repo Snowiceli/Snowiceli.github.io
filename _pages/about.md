@@ -21,11 +21,12 @@ redirect_from:
 .about-cv .cv-description { margin: .65rem 0 0; }
 .about-cv .cv-awards { padding-left: 1.25rem; margin: .5rem 0 1.25rem; }
 .about-cv .cv-awards li { margin-bottom: .5rem; }
-.about-cv .cv-education .cv-description { font-size: max(16px, .88rem); line-height: 1.6; }
+.about-cv .cv-education .cv-description, .about-cv .cv-research .cv-description { font-size: max(16px, .88rem); line-height: 1.6; }
 .about-cv .cv-planning-awards { list-style: none; padding: 0; margin: .75rem 0 1.25rem; }
 .about-cv .cv-planning-awards li { display: grid; grid-template-columns: minmax(7rem, 1fr) minmax(0, 3fr) 4rem; align-items: baseline; column-gap: 1rem; margin-bottom: .85rem; }
 .about-cv .cv-award-level { font-weight: 600; }
 .about-cv .cv-award-name { min-width: 0; overflow-wrap: anywhere; }
+.about-cv .cv-award-amount { font-size: max(16px, .85rem); }
 .about-cv .cv-award-date { text-align: right; font-style: italic; font-variant-numeric: tabular-nums; }
 @media (max-width: 600px) {
   .about-cv .cv-planning-awards li { grid-template-columns: minmax(0, 1fr) auto; gap: .2rem .75rem; margin-bottom: 1.1rem; }
@@ -40,7 +41,7 @@ redirect_from:
 <div class="about-cv">
 <p>I am a PhD student at the University of Wisconsin–Madison, advised by Prof. Daijiang Li. My research examines how urbanization and environmental change shape plant communities and species interactions. My background spans environmental design, plant physiology, and ecology, and I am interested in connecting plant responses to environmental stress with broader patterns of biodiversity.</p>
 
-<section aria-labelledby="current-research-heading">
+<section class="cv-research" aria-labelledby="current-research-heading">
 <h2 id="current-research-heading">Current Research</h2>
 
 <div class="cv-entry">
@@ -53,10 +54,10 @@ redirect_from:
 <p class="cv-affiliation">Prof. Daijiang Li’s group</p>
 
 <h4>Urbanization and global patterns of plant diversity</h4>
-<p class="cv-description">I investigate how urbanization reshapes plant community composition and biotic homogenization across cities worldwide. My work examines the contributions of native and non-native plants, variation across latitudes, and differences between urban cores and surrounding landscapes. I am particularly interested in how species turnover and nestedness contribute to these patterns, and how the choice of comparison baseline changes our understanding of urban homogenization.</p>
+<p class="cv-description">I study how urbanization reshapes plant community composition and biotic homogenization worldwide, focusing on native and non-native species, latitudinal patterns, and urban–rural differences. My work examines how species turnover, nestedness, and comparison baselines influence these patterns.</p>
 
 <h4>Climate change, urban plants, and species interactions</h4>
-<p class="cv-description">I am developing a research focus on how climate change and extreme weather affect urban plant communities and their interactions with other species, particularly pollinators. I am interested in how urban microclimates influence plant responses to heat and drought, flowering phenology, and the timing of plant–pollinator interactions. This work aims to connect changes in plant communities with the organization and resilience of ecological interactions.</p>
+<p class="cv-description">My potential research interest is understanding how climate change and extreme weather shape urban plant communities and plant–pollinator interactions.</p>
 </div>
 </section>
 
@@ -79,8 +80,7 @@ redirect_from:
 <h3>Sichuan Agricultural University</h3>
 <span class="cv-date">2022–2025</span>
 </div>
-<p class="cv-role">Master’s Degree</p>
-<p class="cv-location">Chengdu, China</p>
+<p class="cv-role">Master</p>
 <p class="cv-description">Focused on plant responses to environmental stress, combining physiological and molecular approaches to study <em>Dendrobium nobile</em>. Additional research explored how light quality affects flowering and flower coloration in <em>Dendrobium</em> species.</p>
 </div>
 
@@ -89,13 +89,12 @@ redirect_from:
 <h3>Sichuan Agricultural University</h3>
 <span class="cv-date">2018–2022</span>
 </div>
-<p class="cv-role">Bachelor’s Degree</p>
-<p class="cv-location">Chengdu, China</p>
+<p class="cv-role">Bachelor</p>
 <p class="cv-description">Developed a foundation in environmental design and urban planning through coursework in ecology, urban planning, urban green space system planning, and wood science. Collaborative design projects and competitions provided experience in landscape design and the planning of urban public spaces.</p>
 </div>
 </section>
 
-<section aria-labelledby="research-heading">
+<section class="cv-research" aria-labelledby="research-heading">
 <h2 id="research-heading">Research Experience</h2>
 
 <div class="cv-entry">
@@ -105,7 +104,7 @@ redirect_from:
 </div>
 <p class="cv-role">Research Assistant</p>
 <p class="cv-location">Sha Tin, Hong Kong</p>
-<p class="cv-description">Worked on plant epigenetics, studying regulatory mechanisms underlying gene expression in plants.</p>
+<p class="cv-description">Studied epigenetic regulation of gene expression in plants.</p>
 </div>
 
 <div class="cv-entry">
@@ -116,7 +115,7 @@ redirect_from:
 <p class="cv-role">Visiting Researcher</p>
 <p class="cv-location">United Kingdom</p>
 <p class="cv-affiliation">School of Biosciences · Dr. Rahul Bhosale’s group</p>
-<p class="cv-description">Investigated hormone-mediated responses of <em>Arabidopsis thaliana</em> roots to heat stress, with a focus on abscisic acid and gibberellin signaling. Used fluorescent hormone biosensors and confocal imaging to examine how hormone responses change over time and contribute to root growth under elevated temperatures.</p>
+<p class="cv-description">Investigated abscisic acid and gibberellin signaling in <em>Arabidopsis thaliana</em> root responses to heat stress using fluorescent biosensors and confocal imaging.</p>
 </div>
 
 <div class="cv-entry">
@@ -125,13 +124,12 @@ redirect_from:
 <span class="cv-date">2022–2025</span>
 </div>
 <p class="cv-role">Graduate Research</p>
-<p class="cv-location">Chengdu, China</p>
 
 <h4>Environmental stress responses in <em>Dendrobium nobile</em></h4>
-<p class="cv-description">Studied the physiological and molecular responses of <em>Dendrobium nobile</em> to environmental stress, particularly heavy metal stress. Combined physiological measurements with transcriptomic analysis to investigate stress responses and mechanisms of tolerance, including the effects of cerium under copper stress.</p>
+<p class="cv-description">Combined physiological and transcriptomic analyses to study heavy metal stress responses in <em>Dendrobium nobile</em>, including the effects of cerium under copper stress.</p>
 
 <h4>Light quality, flowering, and flower coloration</h4>
-<p class="cv-description">Examined how light quality influences flowering and flower coloration in <em>Dendrobium</em> species, exploring the links between environmental conditions and ornamental plant development.</p>
+<p class="cv-description">Examined how light quality affects flowering and flower coloration in <em>Dendrobium</em> species.</p>
 </div>
 </section>
 
@@ -149,30 +147,36 @@ redirect_from:
 <h3>Urban Planning &amp; Landscape Awards</h3>
 <ul class="cv-planning-awards">
 <li>
-<strong class="cv-award-level">First Prize</strong>
-<span class="cv-award-name">13th Yuan Ye Cup International Competition for University Students</span>
-<span class="cv-award-date">2022</span>
-</li>
-<li>
 <strong class="cv-award-level">Third Prize</strong>
 <span class="cv-award-name">Student Design Competition, Chinese Landscape Architecture Education Conference</span>
 <span class="cv-award-date">2023</span>
 </li>
 <li>
-<strong class="cv-award-level">Third Prize</strong>
-<span class="cv-award-name">2019 Xiong’an Urban Furniture Design Competition — Open Category</span>
-<span class="cv-award-date"></span>
-</li>
-<li>
-<strong class="cv-award-level">Silver Award</strong>
-<span class="cv-award-name">Chengdu “Park City Gathering” Landscape Design Competition — <em>Jinjiao Yinbian</em> urban space design call</span>
-<span class="cv-award-date"></span>
+<strong class="cv-award-level">First Prize</strong>
+<span class="cv-award-name">13th Yuan Ye Cup International Competition for University Students</span>
+<span class="cv-award-date">2022</span>
 </li>
 <li>
 <strong class="cv-award-level">Honorable Mention</strong>
 <span class="cv-award-name">LA Pioneer Award, National Exhibition of University Landscape Architecture Graduation Projects</span>
-<span class="cv-award-date"></span>
+<span class="cv-award-date">2022</span>
 </li>
+<li>
+<strong class="cv-award-level">Silver Award</strong>
+<span class="cv-award-name">Chengdu “Park City Gathering” Landscape Design Competition — <em>Jinjiao Yinbian</em> urban space design call<br><span class="cv-award-amount">approx. RMB 3,000</span></span>
+<span class="cv-award-date">2020</span>
+</li>
+<li>
+<strong class="cv-award-level">Third Prize</strong>
+<span class="cv-award-name">Xiong’an Urban Furniture Design Competition<br><span class="cv-award-amount">RMB 20,000</span></span>
+<span class="cv-award-date">2019</span>
+</li>
+</ul>
+
+<h3>Travel Funding</h3>
+<ul class="cv-awards">
+<li>John Jefferson Davis (JJD) Funding for Student Travel<br>
+<span class="cv-affiliation">Department of Biology, University of Wisconsin–Madison</span></li>
 </ul>
 </section>
 </div>
