@@ -67,7 +67,7 @@ redirect_from:
 {% endif %}
 
 <section aria-labelledby="service-heading">
-<h2 id="service-heading">Service &amp; Membership</h2>
+<h2 id="service-heading">Service</h2>
 <ul class="cv-awards">
 <li><div class="cv-heading"><span>Biology Colloquium Committee</span><span class="cv-date">2026</span></div></li>
 <li><div class="cv-heading"><span>Graduate Student Academic Affairs and Rights Department</span><span class="cv-date">2022</span></div></li>
