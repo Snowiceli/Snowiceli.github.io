@@ -13,6 +13,7 @@ redirect_from:
 .about-cv p, .about-cv ul, .about-cv li { font-size: inherit; }
 .about-cv h2 { font-size: 1.3em; margin: 2rem 0 1.1rem; padding-bottom: .4rem; border-bottom: 1px solid currentColor; }
 .about-cv h3 { margin: 0; font-size: 1.08em; line-height: 1.4; }
+.about-cv .cv-research h3 { font-size: max(14px, .95em); font-weight: 400; }
 .about-cv h4 { margin: 1rem 0 .35rem; font-size: 1em; }
 .about-cv .cv-entry { margin: 0 0 1.7rem; }
 .about-cv .cv-heading { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem 1.5rem; }
@@ -47,11 +48,10 @@ redirect_from:
 
 <div class="cv-entry">
 <div class="cv-heading">
-<h3>University of Wisconsin–Madison</h3>
+<h3>University of Wisconsin–Madison<span class="cv-institution-location">, Madison, Wisconsin, United States</span></h3>
 <span class="cv-date">2026–present</span>
 </div>
 <p class="cv-role">Graduate Research Assistant</p>
-<p class="cv-location">Madison, Wisconsin, United States</p>
 <p class="cv-affiliation">Prof. Daijiang Li’s group</p>
 
 <h4>Urbanization and global patterns of plant diversity</h4>
@@ -79,21 +79,19 @@ redirect_from:
 
 <div class="cv-entry">
 <div class="cv-heading">
-<h3>The Chinese University of Hong Kong</h3>
+<h3>The Chinese University of Hong Kong<span class="cv-institution-location">, Sha Tin, Hong Kong</span></h3>
 <span class="cv-date">2025</span>
 </div>
 <p class="cv-role">Research Assistant</p>
-<p class="cv-location">Sha Tin, Hong Kong</p>
 <p class="cv-description">Studied epigenetic regulation of gene expression in plants.</p>
 </div>
 
 <div class="cv-entry">
 <div class="cv-heading">
-<h3>University of Nottingham</h3>
+<h3>University of Nottingham<span class="cv-institution-location">, United Kingdom</span></h3>
 <span class="cv-date">2024–2025</span>
 </div>
 <p class="cv-role">Visiting Researcher</p>
-<p class="cv-location">United Kingdom</p>
 <p class="cv-affiliation">School of Biosciences · Dr. Rahul Bhosale’s group</p>
 <p class="cv-description">Investigated abscisic acid and gibberellin signaling in <em>Arabidopsis thaliana</em> root responses to heat stress using fluorescent biosensors and confocal imaging.</p>
 </div>
