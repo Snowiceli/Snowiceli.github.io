@@ -36,3 +36,31 @@
     "layout/archive",
     "layout/sidebar"
 ;
+
+/* Wider desktop layout with a stable author column and more room for text. */
+@include breakpoint($large) {
+  #main,
+  .masthead__inner-wrap,
+  .page__footer footer {
+    width: 94%;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main > .sidebar {
+    width: 220px;
+    max-width: 220px;
+  }
+
+  #main > .page,
+  #main > .archive {
+    float: right;
+    width: calc(100% - 270px);
+    min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

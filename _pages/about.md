@@ -13,7 +13,8 @@ redirect_from:
 .about-cv p, .about-cv ul, .about-cv li { font-size: inherit; }
 .about-cv h2 { font-size: 1.3em; margin: 2rem 0 1.1rem; padding-bottom: .4rem; border-bottom: 1px solid currentColor; }
 .about-cv h3 { margin: 0; font-size: 1.08em; line-height: 1.4; }
-.about-cv .cv-research h3 { font-size: max(14px, .95em); font-weight: 400; }
+.about-cv .cv-research h3 { font-size: 1em; font-weight: 600; }
+.about-cv .cv-institution-location { font-weight: 400; }
 .about-cv h4 { margin: 1rem 0 .35rem; font-size: 1em; }
 .about-cv .cv-entry { margin: 0 0 1.7rem; }
 .about-cv .cv-heading { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem 1.5rem; }
@@ -25,7 +26,7 @@ redirect_from:
 .about-cv .cv-awards li { margin-bottom: .5rem; }
 .about-cv .cv-education .cv-description, .about-cv .cv-research .cv-description { font-size: inherit; line-height: inherit; }
 .about-cv .cv-planning-awards { list-style: none; padding: 0; margin: .75rem 0 1.25rem; }
-.about-cv .cv-planning-awards li { display: grid; grid-template-columns: minmax(7rem, 1fr) minmax(0, 3fr) 4rem; align-items: baseline; column-gap: 1rem; margin-bottom: .85rem; }
+.about-cv .cv-planning-awards li { display: grid; grid-template-columns: max-content minmax(0, 1fr) 5em; align-items: baseline; column-gap: 1rem; margin-bottom: .85rem; }
 .about-cv .cv-award-level { font-weight: 600; }
 .about-cv .cv-award-name { min-width: 0; overflow-wrap: anywhere; }
 .about-cv .cv-award-amount { font-size: inherit; }
@@ -155,6 +156,13 @@ redirect_from:
 <ul class="cv-awards">
 <li><div class="cv-heading"><span>John Jefferson Davis (JJD) Funding for Student Travel</span><span class="cv-date">2026</span></div>
 <span class="cv-affiliation">Department of Biology, University of Wisconsin–Madison</span></li>
+</ul>
+</section>
+
+<section aria-labelledby="service-heading">
+<h2 id="service-heading">Service &amp; Membership</h2>
+<ul class="cv-awards">
+<li><div class="cv-heading"><span>Biology Colloquium Committee</span><span class="cv-date">2026</span></div></li>
 </ul>
 </section>
 </div>
