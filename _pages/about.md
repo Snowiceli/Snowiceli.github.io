@@ -64,35 +64,14 @@ redirect_from:
 
 <section class="cv-education" aria-labelledby="education-heading">
 <h2 id="education-heading">Education</h2>
-
-<div class="cv-entry">
-<div class="cv-heading">
-<h3>University of Wisconsin–Madison</h3>
+<p class="cv-heading">
+<span><strong>PhD Student</strong>, University of Wisconsin–Madison</span>
 <span class="cv-date">2026–present</span>
-</div>
-<p class="cv-role">PhD Student</p>
-<p class="cv-location">Madison, Wisconsin, United States</p>
-<p class="cv-affiliation">Botany · Advisor: Prof. Daijiang Li</p>
-<p class="cv-description">My doctoral research focuses on urban plant diversity, community composition, and biotic homogenization, with developing interests in climate change and species interactions.</p>
-</div>
-
-<div class="cv-entry">
-<div class="cv-heading">
-<h3>Sichuan Agricultural University</h3>
-<span class="cv-date">2022–2025</span>
-</div>
-<p class="cv-role">Master</p>
-<p class="cv-description">Focused on plant responses to environmental stress, combining physiological and molecular approaches to study <em>Dendrobium nobile</em>. Additional research explored how light quality affects flowering and flower coloration in <em>Dendrobium</em> species.</p>
-</div>
-
-<div class="cv-entry">
-<div class="cv-heading">
-<h3>Sichuan Agricultural University</h3>
-<span class="cv-date">2018–2022</span>
-</div>
-<p class="cv-role">Bachelor</p>
-<p class="cv-description">Developed a foundation in environmental design and urban planning through coursework in ecology, urban planning, urban green space system planning, and wood science. Collaborative design projects and competitions provided experience in landscape design and the planning of urban public spaces.</p>
-</div>
+</p>
+<p class="cv-heading">
+<span><strong>BS &amp; MS</strong>, Sichuan Agricultural University</span>
+<span class="cv-date">2018–2025</span>
+</p>
 </section>
 
 <section class="cv-research" aria-labelledby="research-heading">
